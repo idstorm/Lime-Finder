@@ -2,19 +2,25 @@
 //  AppDelegate.m
 //  Lime Finder
 //
-//  Created by idstorm on 13. 5. 23..
+//  Created by idstorm on 13. 4. 22..
 //  Copyright (c) 2013년 Lime Works. All rights reserved.
 //
 
 #import "AppDelegate.h"
 
+
 @implementation AppDelegate
+
+@synthesize rootViewController_;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    rootViewController_ = [[RootViewController alloc] init];
+    self.window.rootViewController = rootViewController_;
+    rootViewController_.view.backgroundColor = [UIColor whiteColor];
+    self.window.backgroundColor = [UIColor grayColor];
     [self.window makeKeyAndVisible];
     return YES;
 }

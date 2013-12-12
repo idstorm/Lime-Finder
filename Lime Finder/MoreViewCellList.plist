@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Title</key>
+		<string>사파리로 현재페이지 열기</string>
+		<key>IconOn</key>
+		<string>bottom_btn_share_safari.png</string>
+		<key>IconOff</key>
+		<string>bottom_btn_share_safari.png</string>
+		<key>IconOver</key>
+		<string>bottom_btn_share_safari_over.png</string>
+		<key>ActionSelector</key>
+		<string>actionSafari:</string>
+        <key>ValidationSelector</key>
+		<string>canOpenSafari</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>이메일로 링크보내기</string>
+		<key>IconOn</key>
+		<string>bottom_btn_share_email.png</string>
+		<key>IconOff</key>
+		<string>bottom_btn_share_email.png</string>
+		<key>IconOver</key>
+		<string>bottom_btn_share_email_over.png</string>
+		<key>ActionSelector</key>
+		<string>actionEmail:</string>
+        <key>ValidationSelector</key>
+		<string>canOpenEmail</string>
+	</dict>
+    <dict>
+		<key>Title</key>
+		<string>문자메세지로 링크보내기</string>
+		<key>IconOn</key>
+		<string>bottom_btn_share_sms.png</string>
+		<key>IconOff</key>
+		<string>bottom_btn_share_sms.png</string>
+		<key>IconOver</key>
+		<string>bottom_btn_share_sms_over.png</string>
+		<key>ActionSelector</key>
+		<string>actionMessage:</string>
+        <key>ValidationSelector</key>
+		<string>canOpenMessage</string>
+	</dict>
+    <dict>
+		<key>Title</key>
+		<string>twitter로 링크공유</string>
+		<key>IconOn</key>
+		<string>bottom_btn_share_twitter.png</string>
+		<key>IconOff</key>
+		<string>bottom_btn_share_twitter.png</string>
+		<key>IconOver</key>
+		<string>bottom_btn_share_twitter_over.png</string>
+		<key>ActionSelector</key>
+		<string>actionTwitter:</string>
+        <key>ValidationSelector</key>
+		<string>canOpenTwitter</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Facebook으로 링크공유 </string>
+		<key>IconOn</key>
+		<string>bottom_btn_share_facebook.png</string>
+		<key>IconOff</key>
+		<string>bottom_btn_share_facebook.png</string>
+		<key>IconOver</key>
+		<string>bottom_btn_share_facebook_over.png</string>
+		<key>ActionSelector</key>
+		<string>actionFacebook:</string>
+        <key>ValidationSelector</key>
+		<string>canOpenFacebook</string>
+	</dict>
+    <dict>
+		<key>Title</key>
+		<string>마이피플로 링크보내기</string>
+		<key>IconOn</key>
+		<string>bottom_btn_share_mypeople.png</string>
+		<key>IconOff</key>
+		<string>bottom_btn_share_mypeople.png</string>
+		<key>IconOver</key>
+		<string>bottom_btn_share_mypeople_over.png</string>
+		<key>ActionSelector</key>
+		<string>actionMyPeople:</string>
+        <key>ValidationSelector</key>
+		<string>canOpenMyPeople</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>카카오톡으로 링크보내기</string>
+		<key>IconOn</key>
+		<string>bottom_btn_share_kakaotalk.png</string>
+		<key>IconOff</key>
+		<string>bottom_btn_share_kakaotalk.png</string>
+		<key>IconOver</key>
+		<string>bottom_btn_share_kakaotalk_over.png</string>
+		<key>ActionSelector</key>
+		<string>actionKaKaoTalk:</string>
+        <key>ValidationSelector</key>
+		<string>canOpenKaKaoTalk</string>
+	</dict>
+    <dict>
+		<key>Title</key>
+		<string>카카오스토리로 링크보내기</string>
+		<key>IconOn</key>
+		<string>bottom_btn_share_kakaostory.png</string>
+		<key>IconOff</key>
+		<string>bottom_btn_share_kakaostory.png</string>
+		<key>IconOver</key>
+		<string>bottom_btn_share_kakaostory_over.png</string>
+		<key>ActionSelector</key>
+		<string>actionKaKaoStory:</string>
+        <key>ValidationSelector</key>
+		<string>canOpenKaKaoStory</string>
+	</dict>
+</array>
+</plist>

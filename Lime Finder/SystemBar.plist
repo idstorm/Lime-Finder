@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Title</key>
+		<string>시스템바 열기</string>
+		<key>IconOn</key>
+		<string>list_btn_set_over.png</string>
+		<key>IconOff</key>
+		<string>list_btn_set_over.png</string>
+		<key>IconOver</key>
+		<string>list_btn_set_over2.png</string>
+		<key>Selector</key>
+		<string>actionSet:</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>항목수정</string>
+		<key>IconOn</key>
+		<string>list_btn_edit_01_over.png</string>
+		<key>IconOff</key>
+		<string>list_btn_edit.png</string>
+		<key>IconOver</key>
+		<string>list_btn_edit_01_over.png</string>
+		<key>Selector</key>
+		<string>actionEdit:</string>
+	</dict>
+    <dict>
+		<key>Title</key>
+		<string>항목초기화</string>
+		<key>IconOn</key>
+		<string>list_btn_reset_over.png</string>
+		<key>IconOff</key>
+		<string>list_btn_reset.png</string>
+		<key>IconOver</key>
+		<string>list_btn_reset_over.png</string>
+		<key>Selector</key>
+		<string>actionReset:</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>항목추가</string>
+		<key>IconOn</key>
+		<string>list_btn_dummy.png</string>
+		<key>IconOff</key>
+		<string>list_btn_dummy.png</string>
+		<key>IconOver</key>
+		<string>list_btn_dummy.png</string>
+		<key>Selector</key>
+		<string>actionAdd:</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>앱 정보</string>
+		<key>IconOn</key>
+		<string>list_btn_info_over.png</string>
+		<key>IconOff</key>
+		<string>list_btn_info.png</string>
+		<key>IconOver</key>
+		<string>list_btn_info_over.png</string>
+		<key>Selector</key>
+		<string>actionInfo:</string>
+	</dict>
+</array>
+</plist>
